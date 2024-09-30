@@ -1,0 +1,11 @@
+.message {
+    background-color: rgba(0, 128, 0, 0.8); /* Verde oscuro con opacidad */
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    font-size: 1.2rem;
+    max-width: 300px; /* Limita el ancho del mensaje para que no sea tan ancho */
+    margin: 0 auto; /* Centra el mensaje en el contenedor */
+}

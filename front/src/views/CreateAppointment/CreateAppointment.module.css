@@ -1,0 +1,84 @@
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgba(2, 7, 44, 0);
+    margin: 0; /* Asegura que no haya márgenes en la vista del contenedor */
+}
+
+.card {
+    background-color: rgba(27, 29, 44, 0.1);
+    padding: 20px;
+    border-radius: 15px; /* Radio de borde más grande para un diseño más suave */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.9); /* Sombra más prominente para un efecto más moderno */
+    width: 100%;
+    max-width: 350px; /* Ancho máximo para adaptarse mejor a diferentes pantallas */
+    text-align: center;
+}
+
+.card h1 {
+    color: #e7e7e7;
+    margin-bottom: 20px; /* Espacio debajo del título para mejorar la separación */
+}
+
+.formGroup {
+    margin-bottom: 15px; /* Espacio debajo de cada grupo de formulario */
+}
+
+.label {
+    color: #000000ad;
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 500; /* Mayor peso de fuente para destacar las etiquetas */
+}
+
+.input {
+    width: 100%;
+    padding: 10px; /* Mayor espacio interior para mejorar la usabilidad */
+    border: none;
+    border-radius: 8px; /* Borde más redondeado para un aspecto más suave */
+    margin-bottom: 10px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.287); /* Sombra sutil para los campos de entrada */
+    background-color: rgba(240, 224, 243, 0.877);
+    color: #b7ae71;
+}
+
+.error {
+    color: #ff0000;
+    margin-top: 5px; /* Espacio superior para separar el mensaje de error del campo */
+    margin-bottom: 10px;
+    font-size: 14px; /* Tamaño de fuente más pequeño para los mensajes de error */
+}
+.message{
+    color: #3aff04;
+    
+}
+
+/* Botón */
+.button {
+    background-color: #c2a607; /* Color dorado */
+    color: #ffffff;
+    padding: 10px 20px; /* Ajusta el padding */
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 1rem; /* Tamaño de fuente */
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    width: 100%; /* Asegura que el botón se ajuste al contenedor */
+    box-sizing: border-box; /* Incluye el padding en el tamaño del botón */
+    max-width: 100%; /* Asegura que el botón no se desborde del contenedor */
+    display: block; /* Hace que el botón se comporte como un bloque para evitar desbordamientos */
+}
+
+/* Efectos del botón */
+.button:hover {
+    background-color: #e4bf18b4; /* Dorado más oscuro al pasar el ratón */
+    transform: scale(1.05);
+}
+
+.button:active {
+    background-color: #f5d34a; /* Dorado aún más oscuro al hacer clic */
+}

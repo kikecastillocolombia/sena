@@ -1,0 +1,92 @@
+/* Contenedor principal */
+.container {
+    display: flex;
+    flex-direction: column; /* Asegura que el contenido esté en una columna */
+    justify-content: center; /* Centra el contenido verticalmente */
+    align-items: center; /* Centra el contenido horizontalmente */
+    min-height: 100vh; /* Asegura que el contenedor cubra al menos el 100% de la altura de la ventana */
+    padding: 4em; /* Agrega padding para separar el contenido del borde */
+    background-image: url('../../assets/backgroundHome.jpg'); /* Imagen de fondo */
+    background-size: cover; /* Asegura que la imagen cubra todo el contenedor */
+    background-position: center; /* Centra la imagen en el contenedor */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    color: #a32626; /* Color de texto general */
+    box-sizing: border-box; /* Incluye el padding en el tamaño del contenedor */
+}
+
+/* Tarjeta de formulario */
+.card {
+    background-color: rgba(27, 29, 44, 0.8); /* Fondo oscuro con opacidad */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 300px; /* Ancho máximo para adaptarse a diferentes pantallas */
+    text-align: center;
+    box-sizing: border-box; /* Incluye el padding en el tamaño del contenedor */
+}
+
+/* Título de la tarjeta */
+.card h1 {
+    color: #fff;
+    margin-bottom: 20px; /* Espacio debajo del título */
+}
+
+/* Grupo de formulario */
+.formGroup {
+    margin-bottom: 20px; /* Espacio entre los grupos de formulario */
+}
+
+/* Etiquetas */
+.label {
+    color: #3d3a3a; /* Color gris para las etiquetas */
+    display: block;
+    margin-bottom: 8px; /* Separación entre la etiqueta y el campo */
+    font-weight: 500; /* Peso de fuente para destacar la etiqueta */
+}
+
+/* Campos de entrada */
+.input {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: #ffffff; /* Fondo blanco para los campos de entrada */
+    color: #000000; /* Color de texto negro */
+}
+
+/* Botón */
+.button {
+    background-color: #c2a607; /* Color dorado */
+    color: #ffffff;
+    padding: 10px 20px; /* Ajusta el padding */
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 1rem; /* Tamaño de fuente */
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    width: 100%; /* Asegura que el botón se ajuste al contenedor */
+    box-sizing: border-box; /* Incluye el padding en el tamaño del botón */
+    max-width: 100%; /* Asegura que el botón no se desborde del contenedor */
+    display: block; /* Hace que el botón se comporte como un bloque para evitar desbordamientos */
+}
+
+/* Efectos del botón */
+.button:hover {
+    background-color: #cfab0b; /* Dorado más oscuro al pasar el ratón */
+    transform: scale(1.05);
+}
+
+.button:active {
+    background-color: #f5d34a; /* Dorado aún más oscuro al hacer clic */
+}
+
+/* Mensajes de error */
+.error {
+    color: #ff0000; /* Color rojo para mensajes de error */
+    font-size: 0.875rem; /* Tamaño de fuente */
+    margin-top: 8px; /* Espacio superior */
+    margin-bottom: 0; /* Elimina margen inferior */
+}

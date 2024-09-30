@@ -1,0 +1,29 @@
+.navContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgba(red, green, blue, 0.2);
+    padding-bottom: 1em;
+    align-items: center;
+    
+
+}
+.logoSection {
+    display: flex;
+    flex-direction: row;
+    img {
+        height: 50px;
+        padding: 20px;
+        border-radius: 33px;
+    }
+}
+.avatarSection {
+    display: flex;
+    place-items: center;
+    height: 100%;
+    img {
+        height: 50px;
+        padding: 20px;
+        border-radius: 50px;
+    }
+}

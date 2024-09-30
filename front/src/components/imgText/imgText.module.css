@@ -1,0 +1,57 @@
+.imgText {
+    display: flex;
+    flex-direction: column; /* Cambiado a columna para que el texto y los botones estén apilados */
+    align-items: center;
+    padding: 1em;
+    margin: 1em;
+    background-color: rgba(234, 118, 118, 0.2); /* Fondo blanco con transparencia */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9); /* Sombra para profundidad */
+    text-align: center; /* Alineación centrada del texto */
+}
+
+.image {
+    height: 8em; /* Ajusta el tamaño de la imagen según sea necesario */
+    width: auto; /* Mantiene la proporción de la imagen */
+    margin-bottom: 20px; /* Espacio entre la imagen y el texto */
+    border-radius: 5px; /* Opcional: bordes redondeados para la imagen */
+}
+
+.textContainer {
+    display: flex;
+    flex-direction: column; /* Alinea el texto y los botones en columna */
+    align-items: center;
+}
+
+.description {
+    font-size: 1.2rem; /* Ajusta el tamaño del texto para que sea más legible */
+    color: #333; /* Color de texto oscuro para mejor contraste */
+    line-height: 1.5; /* Espaciado entre líneas para mejorar la legibilidad */
+    margin-bottom: 20px; /* Espacio debajo del texto */
+}
+
+.buttonContainer {
+    display: flex;
+    gap: 20px; /* Espacio entre los botones */
+}
+
+.button {
+    background-color: #c2a607df; /* Color dorado */
+    color: #fff;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.button:hover {
+    background-color: #cfab0bca; /* Dorado más oscuro al pasar el ratón */
+    transform: scale(1.05);
+}
+
+.button:active {
+    background-color: #f0c30d; /* Dorado aún más oscuro al hacer clic */
+}

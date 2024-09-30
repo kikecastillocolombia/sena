@@ -1,0 +1,54 @@
+/* CardAppointment.module.css */
+
+.cardContainer {
+    background-color: rgba(27, 29, 44, 0.8);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 300px; /* Ajusta el ancho máximo para que tres tarjetas quepan en una fila */
+    text-align: center;
+    margin: 0; /* Asegura que no haya márgenes que puedan afectar el diseño */
+    box-sizing: border-box; /* Incluye el padding y el borde en el cálculo del ancho total */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Agrega una transición suave */
+    cursor: pointer; /* Cambia el cursor al pasar sobre la tarjeta */
+}
+
+.cardContainer:hover {
+    transform: scale(1.05); /* Agranda la tarjeta al pasar el ratón */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Agranda la sombra para el efecto de elevación */
+}
+
+.cardContent {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Espacio entre los elementos dentro de la tarjeta */
+}
+
+.activeContainer {
+    display: flex;
+    justify-content: space-between; /* Espacia el botón y el estado */
+    align-items: center;
+}
+
+.active {
+    color: #4caf50; /* Color verde para el estado activo */
+}
+
+.cancelled {
+    color: #f44336; /* Color rojo para el estado cancelado */
+}
+
+.cancelButton {
+    background-color: #ff5722; /* Color del botón de cancelar */
+    color: white;
+    padding: 8px 12px; /* Ajusta el tamaño del botón */
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px; /* Tamaño de fuente ajustado */
+}
+
+.cancelButton:hover {
+    background-color: #e64a19; /* Color del botón al pasar el mouse */
+}

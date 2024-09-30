@@ -1,0 +1,87 @@
+/* Contenedor principal */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('../../assets/backgroundHome.jpg');
+    background-size: cover; /* Asegura que la imagen cubra todo el contenedor */
+    background-position: center; /* Centra la imagen en el contenedor */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    margin: 0; /* Asegura que no haya márgenes no deseados */
+    color: #a32626; /* Color de texto general */
+}
+
+/* Tarjeta de formulario */
+.card {
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo oscuro con opacidad para mejor contraste */
+    padding: 25px; /* Mayor relleno para un aspecto más espacioso */
+    border-radius: 12px; /* Bordes más redondeados para un diseño más suave */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Sombra más prominente para profundidad */
+    width: 100%;
+    max-width: 360px; /* Ancho máximo para adaptarse mejor a diferentes pantallas */
+    text-align: center;
+}
+
+/* Título de la tarjeta */
+.card h1 {
+    color: #ffffff; /* Color blanco para el título */
+    margin-bottom: 20px; /* Mayor espacio debajo del título */
+    font-size: 1.5rem; /* Tamaño de fuente para mayor visibilidad */
+}
+
+/* Grupo de formulario */
+.formGroup {
+    margin-bottom: 20px; /* Mayor espacio entre los grupos de formulario */
+}
+
+/* Etiquetas */
+.label {
+    color: #3d3a3a; /* Color gris para las etiquetas */
+    display: block;
+    margin-bottom: 8px; /* Mayor separación entre la etiqueta y el campo */
+    font-weight: 500; /* Mayor peso de fuente para destacar la etiqueta */
+}
+
+/* Campos de entrada */
+.input {
+    width: 100%;
+    padding: 10px; /* Mayor espacio interior para mejor usabilidad */
+    border: none;
+    border-radius: 8px; /* Bordes más redondeados para suavidad */
+    margin-bottom: 15px; /* Mayor separación entre campos */
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Sombra sutil para los campos de entrada */
+    background-color: #ffffff; /* Fondo blanco para los campos de entrada */
+    color: #000000; /* Color de texto negro para mejor legibilidad */
+}
+
+/* Botón */
+.button {
+    background-color: #c2a607; /* Color dorado */
+    color: #ffffff;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Efectos del botón */
+.button:hover {
+    background-color: #cfab0b; /* Dorado más oscuro al pasar el ratón */
+    transform: scale(1.05);
+}
+
+.button:active {
+    background-color: #f5d34a; /* Dorado aún más oscuro al hacer clic */
+}
+
+/* Mensajes de error */
+.error {
+    color: red;
+    font-size: 0.875rem; /* Tamaño de fuente para los mensajes de error */
+    margin-top: 8px; /* Espacio superior mayor para separar del campo */
+    margin-bottom: 0; /* Elimina el margen inferior para un ajuste preciso */
+}
